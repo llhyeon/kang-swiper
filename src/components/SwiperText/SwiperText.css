@@ -1,0 +1,27 @@
+.text-container {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  width: 320px;
+  z-index: 999;
+  color: #fff;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  padding: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.8rem;
+
+    .desc {
+      font-size: 2rem;
+    }
+  }
+}
